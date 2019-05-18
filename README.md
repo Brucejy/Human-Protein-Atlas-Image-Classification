@@ -12,4 +12,18 @@ The results will be evaluated based on https://en.wikipedia.org/wiki/F1_score.
 - Framework: Keras
 - Model: Xception
 - Data: Kaggle data
-- Augmentation: 
+- Augmentation: rotation, shear, horizontal flip, vertical flip
+- Optimizer: Adam
+- Loss: Binary Cross Entropy 
+- Learning rate: 0.001
+- Image size: 299
+- Batch size: 16
+- Epochs: 25
+- Training time: about 10 hours on Tesla P4
+
+#### Prediction
+- Threshold: search the best threshold for each class 
+- TTA(Test Time Augmentation) number: 16
+
+#### Improvement
+- 
