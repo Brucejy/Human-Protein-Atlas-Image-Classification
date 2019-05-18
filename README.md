@@ -25,6 +25,6 @@ The results will be evaluated based on https://en.wikipedia.org/wiki/F1_score.
 - Threshold: search the threshold for each class 
 - TTA(Test Time Augmentation) number: 16
 
-#### Improvement
+### Improvement Aspects
 - Oversampling for rare class
 - K-folds cross validation for optimizing the data splitting
