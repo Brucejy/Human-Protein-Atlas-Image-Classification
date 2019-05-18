@@ -26,4 +26,5 @@ The results will be evaluated based on https://en.wikipedia.org/wiki/F1_score.
 - TTA(Test Time Augmentation) number: 16
 
 #### Improvement
-- 
+- Oversampling for rare class
+- K-folds cross validation for optimizing the data splitting
