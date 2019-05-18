@@ -22,7 +22,7 @@ The results will be evaluated based on https://en.wikipedia.org/wiki/F1_score.
 - Training time: about 10 hours on Tesla P4
 
 #### Prediction
-- Threshold: search the best threshold for each class 
+- Threshold: search the threshold for each class 
 - TTA(Test Time Augmentation) number: 16
 
 #### Improvement
